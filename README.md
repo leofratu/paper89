@@ -22,7 +22,7 @@ Each trajectory:
 
 **Estimated Cost:** $2,500 - $5,000 in API credits depending on model pricing and trajectory length. 
 
-**Note on Rate Limiting:** Due to the high concurrency required for these tests, standard Tier 1/2 API accounts will likely encounter persistent 429 Rate Limit errors. Replication is only feasible for organizations with Tier 4+ access or custom provisioned throughput.
+**Note on Rate Limiting:** Due to the high concurrency required for these tests, standard Tier 1/2 API accounts will likely encounter persistent 429 Rate Limit errors..
 
 ## Setup & Methodology Verification
 
