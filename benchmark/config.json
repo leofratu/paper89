@@ -1,7 +1,7 @@
 {
   "models": [
     { "name": "gemini-3-flash-preview", "label": "Gemini 3 Flash" },
-    { "name": "gemini-3-pro", "label": "Gemini 3 Pro" },
+    { "name": "gemini-3-pro-preview", "label": "Gemini 3 Pro" },
     { "name": "glm-4.7", "label": "GLM 4.7" },
     { "name": "opus-4.5", "label": "Opus 4.5" },
     { "name": "codex-5.2-high", "label": "Codex 5.2 High" }
