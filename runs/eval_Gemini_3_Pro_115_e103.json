@@ -1,0 +1,18 @@
+{
+  "run_id": "eval_Gemini_3_Pro_115_e103",
+  "task_id": "opencode_get_directory_root",
+  "model": "Gemini 3 Pro",
+  "condition": "mismatched",
+  "metadata": {
+    "needle_type": "implicit_contract",
+    "distance_bucket": "mid"
+  },
+  "summary": {
+    "success": false,
+    "needle_hit": false,
+    "time_to_first_needle_tool_call": null,
+    "time_to_first_needle_minutes": null,
+    "tool_calls_used": 40
+  },
+  "events": []
+}

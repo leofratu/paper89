@@ -1,0 +1,18 @@
+{
+  "run_id": "eval_Opus_4.5_102_595f",
+  "task_id": "kilocode_safe_stringify_bigint",
+  "model": "Opus 4.5",
+  "condition": "matched",
+  "metadata": {
+    "needle_type": "implicit_contract",
+    "distance_bucket": "near"
+  },
+  "summary": {
+    "success": false,
+    "needle_hit": false,
+    "time_to_first_needle_tool_call": null,
+    "time_to_first_needle_minutes": null,
+    "tool_calls_used": 40
+  },
+  "events": []
+}

@@ -1,0 +1,18 @@
+{
+  "run_id": "eval_GLM_4.7_084_6b59",
+  "task_id": "kilocode_safe_stringify_bigint",
+  "model": "GLM 4.7",
+  "condition": "matched",
+  "metadata": {
+    "needle_type": "implicit_contract",
+    "distance_bucket": "near"
+  },
+  "summary": {
+    "success": false,
+    "needle_hit": true,
+    "time_to_first_needle_tool_call": 11.8,
+    "time_to_first_needle_minutes": 8.8,
+    "tool_calls_used": 40
+  },
+  "events": []
+}

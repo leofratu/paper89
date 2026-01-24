@@ -1,0 +1,18 @@
+{
+  "run_id": "eval_Codex_5.2_High_107_4c9c",
+  "task_id": "opencode_get_directory_root",
+  "model": "Codex 5.2 High",
+  "condition": "mismatched",
+  "metadata": {
+    "needle_type": "implicit_contract",
+    "distance_bucket": "far"
+  },
+  "summary": {
+    "success": false,
+    "needle_hit": false,
+    "time_to_first_needle_tool_call": null,
+    "time_to_first_needle_minutes": null,
+    "tool_calls_used": 40
+  },
+  "events": []
+}

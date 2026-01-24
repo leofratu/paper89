@@ -1,0 +1,18 @@
+{
+  "run_id": "eval_GLM_4.7_017_f0d9",
+  "task_id": "opencode_get_directory_root",
+  "model": "GLM 4.7",
+  "condition": "mismatched",
+  "metadata": {
+    "needle_type": "implicit_contract",
+    "distance_bucket": "far"
+  },
+  "summary": {
+    "success": true,
+    "needle_hit": true,
+    "time_to_first_needle_tool_call": 11.8,
+    "time_to_first_needle_minutes": 8.8,
+    "tool_calls_used": 20
+  },
+  "events": []
+}
