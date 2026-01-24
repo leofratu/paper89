@@ -1,0 +1,15 @@
+{
+  "tag": "OPENCODE_PATH_SLASH",
+  "description": "Decoy contract for slash normalization (not used by tests).",
+  "files": [
+    "packages/util/src/path.ts"
+  ],
+  "cases": {
+    "readme": "/",
+    "root_file": "",
+    "nested_file": "src"
+  },
+  "notes": [
+    "This file is a decoy for mismatch experiments and should not be used as the task spec."
+  ]
+}

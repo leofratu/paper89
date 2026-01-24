@@ -1,0 +1,34 @@
+{
+  "id": "opencode_get_directory_root",
+  "repo": "repos/opencode-src",
+  "spec_files": [
+    {
+      "source": "spec.json",
+      "dest": "benchmarks/specs/opencode_get_directory.json"
+    },
+    {
+      "source": "decoy.json",
+      "dest": "benchmarks/specs/opencode_get_directory_decoy.json"
+    }
+  ],
+  "test_files": [
+    {
+      "source": "test.ts",
+      "dest": "benchmarks/tests/opencode_get_directory.test.ts"
+    }
+  ],
+  "needles": [
+    "benchmarks/specs/opencode_get_directory.json"
+  ],
+  "run_tests": "node ../../node_modules/.bin/tsx benchmarks/tests/opencode_get_directory.test.ts",
+  "run_all": "node ../../node_modules/.bin/tsx benchmarks/tests/opencode_get_directory.test.ts",
+  "issue": {
+    "matched": "Directory formatting has a regression. The expected outputs are documented under tag OPENCODE_DIR_FORMAT in benchmarks/specs/opencode_get_directory.json. Update getDirectory in packages/util/src/path.ts to match the spec.",
+    "mismatched": "A slash normalization contract (tag OPENCODE_PATH_SLASH) was added. The expected outputs live in benchmarks/specs/opencode_get_directory_decoy.json. Update getDirectory in packages/util/src/path.ts accordingly."
+  },
+  "metadata": {
+    "needle_type": "implicit_contract",
+    "distance_bucket": "near",
+    "mismatch_bucket": "high"
+  }
+}

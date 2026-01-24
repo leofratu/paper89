@@ -1,0 +1,10 @@
+keys.env
+runs/
+workspaces/
+repos/
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+results.json
+report.md

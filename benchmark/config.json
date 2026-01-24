@@ -1,0 +1,24 @@
+{
+  "models": [
+    { "name": "gemini-3-flash", "label": "Gemini 3 Flash" },
+    { "name": "gemini-3-pro", "label": "Gemini 3 Pro" },
+    { "name": "glm-4.7", "label": "GLM 4.7" },
+    { "name": "opus-4.5", "label": "Opus 4.5" },
+    { "name": "codex-5.2-high", "label": "Codex 5.2 High" }
+  ],
+  "budgets": {
+    "tool_calls": 40,
+    "wall_clock_minutes": 20
+  },
+  "generation": {
+    "temperature": 0.2,
+    "max_output_tokens": 512
+  },
+  "runner": {
+    "search_limit": 200,
+    "open_max_lines": 200,
+    "tool_timeout_sec": 60,
+    "min_interval_sec": 2
+  },
+  "keys_env_path": "../keys.env"
+}

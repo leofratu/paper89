@@ -1,0 +1,18 @@
+{
+  "tag": "OPENCODE_DIR_FORMAT",
+  "description": "Directory formatting expectations for UI display.",
+  "files": [
+    "packages/util/src/path.ts"
+  ],
+  "cases": {
+    "readme": "",
+    "root_file": "/",
+    "nested_file": "src/",
+    "windows_file": "C:/"
+  },
+  "notes": [
+    "Return an empty string for bare filenames.",
+    "Normalize separators to '/'.",
+    "Root-level files should return '/'."
+  ]
+}

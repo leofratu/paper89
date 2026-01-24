@@ -1,0 +1,17 @@
+{
+  "tag": "SAFE_STRINGIFY_BIGINT",
+  "description": "Expected output contract for BigInt-safe logging.",
+  "files": [
+    "packages/agent-runtime/src/utils/safe-stringify.ts"
+  ],
+  "expected": {
+    "top_level": "12n",
+    "nested_object": {
+      "value": "9007199254740993n"
+    }
+  },
+  "notes": [
+    "Top-level BigInt arguments should render with an n suffix without JSON quotes.",
+    "Nested BigInt values must be converted to strings with an n suffix."
+  ]
+}

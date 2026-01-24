@@ -1,0 +1,13 @@
+{
+  "tag": "SAFE_STRINGIFY_REGEXP",
+  "description": "Decoy contract for regex handling (not used by tests).",
+  "files": [
+    "packages/agent-runtime/src/utils/safe-stringify.ts"
+  ],
+  "expected": {
+    "regex": "/^foo$/i"
+  },
+  "notes": [
+    "This file is a decoy for mismatch experiments and should not be used as the task spec."
+  ]
+}

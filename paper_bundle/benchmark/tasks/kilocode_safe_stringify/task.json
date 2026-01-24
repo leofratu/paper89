@@ -1,0 +1,34 @@
+{
+  "id": "kilocode_safe_stringify_bigint",
+  "repo": "repos/kilocode-src",
+  "spec_files": [
+    {
+      "source": "spec.json",
+      "dest": "benchmarks/specs/kilocode_safe_stringify.json"
+    },
+    {
+      "source": "decoy.json",
+      "dest": "benchmarks/specs/kilocode_safe_stringify_decoy.json"
+    }
+  ],
+  "test_files": [
+    {
+      "source": "test.ts",
+      "dest": "benchmarks/tests/kilocode_safe_stringify.test.ts"
+    }
+  ],
+  "needles": [
+    "benchmarks/specs/kilocode_safe_stringify.json"
+  ],
+  "run_tests": "node ../../node_modules/.bin/tsx benchmarks/tests/kilocode_safe_stringify.test.ts",
+  "run_all": "node ../../node_modules/.bin/tsx benchmarks/tests/kilocode_safe_stringify.test.ts",
+  "issue": {
+    "matched": "A new logging contract (tag SAFE_STRINGIFY_BIGINT) was added. The expected outputs live in benchmarks/specs/kilocode_safe_stringify.json. Update safeStringify in packages/agent-runtime/src/utils/safe-stringify.ts so BigInt values match the spec.",
+    "mismatched": "A regex logging contract (tag SAFE_STRINGIFY_REGEXP) was added. The expected outputs live in benchmarks/specs/kilocode_safe_stringify_decoy.json. Update safeStringify in packages/agent-runtime/src/utils/safe-stringify.ts accordingly."
+  },
+  "metadata": {
+    "needle_type": "implicit_contract",
+    "distance_bucket": "near",
+    "mismatch_bucket": "high"
+  }
+}

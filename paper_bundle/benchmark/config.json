@@ -1,0 +1,22 @@
+{
+  "models": [
+    { "name": "gemini-2.5-pro", "label": "gemini 2.5 pro" },
+    { "name": "gemini-3-pro-preview", "label": "gemini 3.pro" },
+    { "name": "gemini-3-flash-preview", "label": "gemini 3 flash" }
+  ],
+  "budgets": {
+    "tool_calls": 40,
+    "wall_clock_minutes": 20
+  },
+  "generation": {
+    "temperature": 0.2,
+    "max_output_tokens": 512
+  },
+  "runner": {
+    "search_limit": 200,
+    "open_max_lines": 200,
+    "tool_timeout_sec": 60,
+    "min_interval_sec": 2
+  },
+  "keys_env_path": "../keys.env"
+}
